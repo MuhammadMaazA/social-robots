@@ -47,16 +47,16 @@ Building an **AI-powered educational robot** using the **Reachy Mini robot** and
 ### Phase 1: Understanding & Setup (Week 1)
 
 - [x] Receive project resources from professor
-- [ ] **Task 1:** Review both research papers thoroughly
-  - [ ] Understand system architecture
-  - [ ] Study fine-tuning approach (QLoRA)
-  - [ ] Analyze study methodology and results
-- [ ] **Task 2:** Explore existing MI2US_Year2s codebase
-  - [ ] Review `main.py` - main application flow
-  - [ ] Review `storytelling.py` - AI story generation
-  - [ ] Review `imageGeneration.py` - visual content creation
-  - [ ] Review `server.py` - communication layer
-  - [ ] Understand the web interface (HTML/CSS/JS files)
+- [x] **Task 1:** Review both research papers thoroughly
+  - [x] Understand system architecture
+  - [x] Study fine-tuning approach (QLoRA)
+  - [x] Analyze study methodology and results
+- [x] **Task 2:** Explore existing MI2US_Year2s codebase
+  - [x] Review `main.py` - main application flow
+  - [x] Review `storytelling.py` - AI story generation
+  - [x] Review `imageGeneration.py` - visual content creation
+  - [x] Review `server.py` - communication layer
+  - [x] Understand the web interface (HTML/CSS/JS files)
 - [ ] **Task 3:** Set up development environment
   - [ ] Create Python virtual environment
   - [ ] Install dependencies from `requirements.txt`
@@ -66,16 +66,16 @@ Building an **AI-powered educational robot** using the **Reachy Mini robot** and
 
 ### Phase 2: Research & Learning (Week 1-2)
 
-- [ ] **Task 4:** Study Reachy Mini robot
-  - [ ] Read documentation thoroughly
-  - [ ] Understand hardware capabilities (sensors, actuators)
-  - [ ] Learn API for movement, speech, and interaction
-  - [ ] Compare with Alpha Mini (what's different?)
+- [x] **Task 4:** Study Reachy Mini robot
+  - [x] Read documentation thoroughly
+  - [x] Understand hardware capabilities (sensors, actuators)
+  - [x] Learn API for movement, speech, and interaction
+  - [x] Compare with Alpha Mini (what's different?)
   
-- [ ] **Task 5:** Explore Phi-Ed model on Hugging Face
-  - [ ] Review model card and documentation
-  - [ ] Check model size, requirements, and capabilities
-  - [ ] Understand input/output format
+- [x] **Task 5:** Explore Phi-Ed model on Hugging Face
+  - [x] Review model card and documentation
+  - [x] Check model size, requirements, and capabilities
+  - [x] Understand input/output format
   - [ ] Test model inference (if possible)
 
 - [ ] **Task 6:** Team coordination with Yash
@@ -96,11 +96,11 @@ Building an **AI-powered educational robot** using the **Reachy Mini robot** and
   - [ ] Download Phi-Ed base model locally
   - [ ] Test basic model inference
 
-- [ ] **Task 8:** Learn QLoRA fine-tuning technique
-  - [ ] Study QLoRA (Quantized Low-Rank Adapters) theory
-  - [ ] Review paper's fine-tuning methodology
-  - [ ] Understand personality trait prompting
-  - [ ] Learn about pedagogical strategy generation
+- [x] **Task 8:** Learn QLoRA fine-tuning technique
+  - [x] Study QLoRA (Quantized Low-Rank Adapters) theory
+  - [x] Review paper's fine-tuning methodology
+  - [x] Understand personality trait prompting
+  - [x] Learn about pedagogical strategy generation
 
 - [ ] **Task 9:** Prepare training dataset
   - [ ] Educational dialogues and conversations
@@ -159,18 +159,18 @@ Building an **AI-powered educational robot** using the **Reachy Mini robot** and
   - [ ] Performance testing (response time, accuracy)
   - [ ] Bug fixes and optimization
 
-- [ ] **Task 16:** Create documentation
-  - [ ] Installation guide
-  - [ ] User manual for teachers
-  - [ ] API documentation
-  - [ ] Code documentation and comments
-  - [ ] Troubleshooting guide
+- [x] **Task 16:** Create documentation
+  - [x] Installation guide (SETUP_GUIDE.md)
+  - [x] User manual for teachers
+  - [x] API documentation (REACHY_MINI_GUIDE.md)
+  - [x] Code documentation (CODEBASE_ANALYSIS.md)
+  - [x] Troubleshooting guide (in SETUP_GUIDE.md)
 
-- [ ] **Task 17:** Prepare for next professor meeting
-  - [ ] Demo current progress
-  - [ ] Prepare questions and blockers
-  - [ ] Document findings and challenges
-  - [ ] Get feedback and next steps
+- [x] **Task 17:** Prepare for next professor meeting
+  - [x] Demo current progress (PROGRESS_REPORT.md)
+  - [x] Prepare questions and blockers
+  - [x] Document findings and challenges
+  - [x] Get feedback and next steps
 
 ---
 
