@@ -152,10 +152,11 @@ I've created 5 comprehensive documents for the project:
 ## Questions for Thursday's Meeting
 
 ### Technical Questions
-1. **Phi-Ed Model:**
+1. **Phi-Ed Model & Fine-tuning:**
    - Should we use Phi-Ed as-is or fine-tune further?
-   - Do you have the original training dataset we can access?
-   - What specific capabilities should we add?
+   - **If we need to fine-tune: What dataset should we use?** Can we access the original training data?
+   - Are there specific new capabilities you want us to add?
+   - Should we create our own dataset from the existing MI2US prompts and examples?
 
 2. **Reachy Mini Robot:**
    - Do we have access to Reachy Mini hardware?
@@ -163,10 +164,11 @@ I've created 5 comprehensive documents for the project:
    - When can we begin physical testing?
    - Where is the robot located (lab space)?
 
-3. **Development Environment:**
-   - What GPU resources are available at UCL?
-   - Can we use university compute for model training?
+3. **Development Environment & GPU Resources:**
+   - **What GPU resources are available at UCL for model training/inference?**
+   - Can we use university compute for fine-tuning if needed?
    - Is there a development server we should use?
+   - What are the GPU specs (VRAM, CUDA version)?
 
 4. **Testing & Validation:**
    - How do we test without students initially?
@@ -174,11 +176,11 @@ I've created 5 comprehensive documents for the project:
    - What's the timeline for classroom deployment?
 
 ### Project Scope Questions
-1. Must we support all three languages (English, French, German)?
-2. What's the target age group priority (which to focus on first)?
-3. Should we keep image generation (DALL-E requires API key)?
-4. How much of the existing web UI should we reuse?
-5. Are there specific educational topics/subjects to prioritize?
+1. **Languages:** Must we support all three languages (English, French, German)? Or should we prioritize one for the initial version?
+2. **Target Age Group:** What's the priority (Toddlers/Preschoolers/Elementary/Preteens)? Should we focus on one first?
+3. **Image Generation:** Should we keep DALL-E image generation (requires API key + costs)? Or remove it for now?
+4. **User Interface:** How much of the existing web UI should we reuse? Or should we rebuild with PyQt?
+5. **Educational Topics:** Are there specific subjects to prioritize (science, math, language, stories)?
 
 ### Team Coordination
 1. How should Yash and I divide the work?
